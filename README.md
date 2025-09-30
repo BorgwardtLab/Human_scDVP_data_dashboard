@@ -1,0 +1,3 @@
+# Interactive Data Dashboard for Human Liver Zonation Proteomics
+
+This is an interactive **Streamlit data dashboard** accompanying the manuscript "Single cell spatial proteomics maps human liver zonation patterns and their vulnerability to disruption in tissue architecture". The dashboard provides an intuitive web interface for exploring single-cell spatial proteomics (scDVP) data from human liver samples, enabling interactive visualization and analysis of protein expression gradients along liver zonation trajectories.
