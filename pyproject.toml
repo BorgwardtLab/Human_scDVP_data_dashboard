@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "human-scdvp-analysis"
+name = "dashboard"
 version = "0.1.0"
 description = "Series of analysis scripts for true-spatial single-cell deep visual proteomics"
 authors = ["Lucas Miranda, Paolo Pellizzoni"]
