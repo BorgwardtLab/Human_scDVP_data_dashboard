@@ -587,12 +587,13 @@ def main():
         st.markdown(
             """
             <div style="font-size:1.0rem; line-height:1.6; padding: 0.5rem 0;">
-                <p style="margin-bottom: 0.6rem;"><strong>Authors:</strong> Caroline A. M. Weiss<sup>1</sup>, Lauryn A. Brown<sup>2</sup>, Lucas Miranda<sup>3</sup>, Paolo Pellizzoni<sup>3</sup>, Shani Ben-Moshe<sup>1</sup>, Sophia Steigerwald<sup>1</sup>, Kirsten Remmert<sup>4</sup>, Jonathan Hernandez<sup>4</sup>, Karsten Borgwardt<sup>3</sup>, Florian A. Rosenberger<sup>1,5</sup>, Natalie Porat-Shliom<sup>2,5</sup>, Matthias Mann<sup>1,5</sup></p>
+                <p style="margin-bottom: 0.6rem;"><strong>Authors:</strong> Caroline A. M. Weiss<sup>1</sup>, Lauryn A. Brown<sup>2</sup>, Lucas Miranda<sup>3</sup>, Paolo Pellizzoni<sup>3</sup>, Sophia Steigerwald<sup>1</sup>, Kirsten Remmert<sup>4</sup>, Jonathan Hernandez<sup>4</sup>, Karsten Borgwardt<sup>3</sup>, David E. Kleiner<sup>5</sup>, Shani Ben-Moshe<sup>1</sup>, Florian A. Rosenberger<sup>1,6</sup>, Natalie Porat-Shliom<sup>2,6</sup>, Matthias Mann<sup>1,6</sup></p>
                 <ol style="margin-top: 0.2rem;">
                     <li>Proteomics and Signal Transduction, Max Planck Institute of Biochemistry, Martinsried, Germany.</li>
                     <li>Cell Biology and Imaging Sections, Thoracic and GI Malignancies Branch, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.</li>
                     <li>Machine Learning and Systems Biology, Max Planck Institute of Biochemistry, Martinsried, Germany.</li>
-                    <li>Surgical Oncology Program, National Cancer Institute (NCI), National Institutes of Health (NIH), Bethesda, Maryland, USA.</li>
+                    <li>Surgical Oncology Program, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.</li>
+                    <li>Laboratory of Pathology, Center for Cancer Research, National Cancer Institute, National Institutes of Health, Bethesda, MD, USA.</li>
                     <li>Co-corresponding authors: <a href="mailto:rosenberger@biochem.mpg.de">rosenberger@biochem.mpg.de</a>, <a href="mailto:natalie.porat-shliom@nih.gov">natalie.porat-shliom@nih.gov</a>, <a href="mailto:mmann@biochem.mpg.de">mmann@biochem.mpg.de</a></li>
                 </ol>
             </div>
@@ -601,16 +602,6 @@ def main():
         )
 
         st.markdown("---")
-
-        # Preprint link
-        st.markdown(
-            """
-            <div style="text-align: center; margin: 0.5rem 0 1.0rem 0;">
-                <a href="https://www.biorxiv.org/content/10.1101/2025.04.13.648568v1.full.pdf" target="_blank" style="font-size:1.05rem; font-weight:600; text-decoration:none;">📄 View preprint on bioRxiv (PDF)</a>
-            </div>
-            """,
-            unsafe_allow_html=True,
-        )
         
     elif page == "Page 1: Volcano Plot & Protein Expression":
         st.title("🧬 DVP Data Dashboard")
